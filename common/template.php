@@ -1,10 +1,10 @@
 <?php 
 
-if (isset($_GET['loc'])) {
-$loc = filter_input(INPUT_GET,"loc");;
-} else {
-$loc = ('home');
-};
+// if (isset($_GET['loc'])) {
+// $loc = filter_input(INPUT_GET,"loc");;
+// } else {
+// $loc = ('home');
+// };
 
 switch ($loc) {
 case 'home':
